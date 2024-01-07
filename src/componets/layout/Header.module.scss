@@ -1,0 +1,25 @@
+.Header {
+    width: 100%;
+    color:white;
+    padding: 5px 0;
+    background-color: rgba(27, 27, 27, 0.338);
+    backdrop-filter: blur(3px);
+
+    .inline_boundary {
+        display: flex;
+        max-width: 1500px;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .icons {
+        display: inline-block;
+
+        .battery_icon {
+            padding: 0px 5px;
+        }
+ 
+    }
+}
+

@@ -1,0 +1,11 @@
+
+.About {
+    animation: appear 0.5s 1 ease-in-out;
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+
+@keyframes appear {
+    from {opacity: 0.1; border-radius: 50%; scale: 1;}
+}
